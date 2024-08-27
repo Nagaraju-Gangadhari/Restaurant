@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  background-color: #ffffff;
+  background-size: cover;
+}
+.navbar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+}
+.para {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  list-style-type: none;
+}
+.listitem {
+  margin: 10px;
+  padding: 10px;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+  font-family: Roboto;
+  font-size: 20px;
+}
+.button:hover {
+  color: red;
+  border-bottom: 2px red solid;
+}
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.foodItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  padding: 20px;
+  border: 2px #969696 solid;
+  margin: 5px;
+}
+.image {
+  height: 150px;
+  background-size: cover;
+  width: 100px;
+}
+.head {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+}
+.buttonbg {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 100px;
+  color: #ffffff;
+}
+.buttonplus {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  margin: 10px;
+  background-color: transparent;
+  border: 0px;
+}
+.calories {
+  color: rgb(255, 216, 22);
+  font-size: 28px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.custom {
+  color: blue;
+  font-size: 18px;
+}
+.paragra {
+  color: red;
+  font-family: Roboto;
+  font-size: 18px;
+}

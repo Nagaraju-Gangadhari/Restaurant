@@ -1,0 +1,16 @@
+.navbar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+}
+.para {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+}
